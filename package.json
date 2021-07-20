@@ -1,0 +1,24 @@
+{
+  "name": "rematch-util",
+  "version": "1.0.3",
+  "main": "dist/rematch-util.bundle.js",
+  "repository": "https://github.com/KineticDog/rematch-util.git",
+  "author": "KineticDog",
+  "description": "Utilities that facilitate development of React projects using redux rematch",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "eslint": "^7.31.0",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
